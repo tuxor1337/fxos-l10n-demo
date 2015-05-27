@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1">
+
+    <title>fxos-l10n-demo</title>
+    
+    <link rel="localization" href="locales/testing.{locale}.properties" />
+    <meta name="availableLanguages" content="en-US">
+
+    <script src="es6-promise.js" defer></script>
+    <script src="l10n.js" defer></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <p id="sometext" data-l10n-id="text"></p>
+    <section data-type="sidebar" role="region">
+        <section>
+            <button id="startbutton" class="recommend" data-l10n-id="start"></button>
+        </section>          
+    </section>
+  </body>
+</html>
